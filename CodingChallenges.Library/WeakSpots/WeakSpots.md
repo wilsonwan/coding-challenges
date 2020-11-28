@@ -36,7 +36,7 @@ Each location and score should be formatted as follows:
 Where (x,y) is the zero-indexed vector from the top-left of the grid.
 The list should be returned as a string:
 "(x1,y1,score1)(x2,y2,score2)(x3,y3,score3)"
-If there are multiple locations with the same score, prefer locataions that are topmost and then, if necessary, leftmost, e.g. "(1,0,20)(3,0,20)(1,1,20)"
+If there are multiple locations with the same score, prefer locations that are topmost and then, if necessary, leftmost, e.g. "(1,0,20)(3,0,20)(1,1,20)"
 
 For example, the function inputs asking for the top 2 score in the grid below would be as follows:
 4 | 2 | 3 | 2
